@@ -29,5 +29,3 @@ class PostDeleteApi(generics.DestroyAPIView):
     serializer_class = LinkSerializer
 
  
-
-
