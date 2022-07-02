@@ -27,5 +27,3 @@ class PostUpdateApi(generics.UpdateAPIView):
 class PostDeleteApi(generics.DestroyAPIView):
     queryset = Link.objects.filter(active=True)
     serializer_class = LinkSerializer
-
- 
